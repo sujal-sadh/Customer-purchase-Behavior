@@ -111,7 +111,7 @@ of the visual analysis and layout.
 </p>
 
 <!-- Example image path (update file name if needed) -->
-<!-- <img src="Screenshots/dashboard-preview.png" width="100%"> -->
+<!-- <img src="screenshots/.screenshotsdashboard.png" width="100%"> -->
 
 <hr>
 

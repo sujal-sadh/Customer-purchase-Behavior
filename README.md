@@ -104,7 +104,7 @@ business insights, and key observations from the analysis.
 
 <hr>
 
-<h2 id="screenshots">Screenshots Folder</h2>
+<h2 id="screenshots">Screenshots</h2>
 <p>
 Contains dashboard preview images that provide a quick overview
 of the visual analysis and layout.
@@ -115,7 +115,7 @@ of the visual analysis and layout.
 
 <hr>
 
-<h2 id="scripts">Scripts Folder</h2>
+<h2 id="scripts">Scripts</h2>
 <p>
 Contains both SQL and Python scripts used for data extraction,
 transformation, cleaning, and KPI calculation.

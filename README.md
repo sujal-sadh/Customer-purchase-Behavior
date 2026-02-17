@@ -1,210 +1,161 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Customer Shopping Behavior Analysis</title>
-
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    background-color: #f4f6f9;
-    color: #333;
-    line-height: 1.6;
-}
-
-h1 {
-    color: #1f4e79;
-}
-
-h2 {
-    color: #2e75b6;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-}
-
-ul {
-    margin-left: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #1f4e79;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #ff6600;
-}
-
-pre {
-    background-color: #1e1e1e;
-    color: #ffffff;
-    padding: 15px;
-    border-radius: 8px;
-    overflow-x: auto;
-}
-
-hr {
-    margin: 30px 0;
-}
-
-img {
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
-}
-
-.author-box {
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
-    width: fit-content;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-</style>
-
+    <title>Customer Purchase Behavior</title>
 </head>
 
 <body>
 
-<h1 align="center">🛍️ Customer Shopping Behavior Analysis</h1>
+<h1 align="center">Customer Purchase Behavior</h1>
 
-<hr>
-
-<h2>📑 Table of Contents</h2>
-
-<ul>
-  <li><a href="#summary">Project Summary</a></li>
-  <li><a href="#business">Business Problem</a></li>
-  <li><a href="#dataset">Dataset Description</a></li>
-  <li><a href="#analysis">Analytical Approach</a></li>
-  <li><a href="#dashboard">Dashboard Folder</a></li>
-  <li><a href="#data">Data Folder</a></li>
-  <li><a href="#report">Report Folder</a></li>
-  <li><a href="#screenshots">Screenshots Folder</a></li>
-  <li><a href="#scripts">Scripts Folder</a></li>
-  <li><a href="#structure">Project Structure</a></li>
-  <li><a href="#run">How to Run</a></li>
-  <li><a href="#author">Author</a></li>
-</ul>
-
-<hr>
-
-<h2 id="summary">Project Summary</h2>
-<p>
-This project analyzes customer transaction data to understand purchasing patterns,
-revenue drivers, promotional impact, and subscription behavior.
+<p align="center">
+An end-to-end customer analytics project focused on understanding purchasing patterns,
+revenue trends, discount effectiveness, and customer segmentation using SQL, Python, and Power BI.
 </p>
 
 <hr>
 
-<h2 id="business">Business Problem</h2>
+<h2>Table of Contents</h2>
 <ul>
-  <li>Identify high-value customer segments</li>
-  <li>Measure discount and promo effectiveness</li>
-  <li>Analyze subscription impact</li>
-  <li>Understand seasonal sales trends</li>
-  <li>Evaluate shipping and payment preferences</li>
+    <li><a href="#overview">Project Overview</a></li>
+    <li><a href="#tools">Tools Used</a></li>
+    <li><a href="#structure">Project Structure</a></li>
+    <li><a href="#dashboard">Dashboard Folder</a></li>
+    <li><a href="#data">Data Folder</a></li>
+    <li><a href="#report">Report Folder</a></li>
+    <li><a href="#screenshots">Screenshots Folder</a></li>
+    <li><a href="#scripts">Scripts Folder</a></li>
+    <li><a href="#insights">Key Insights</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#author">Author</a></li>
 </ul>
 
 <hr>
 
-<h2 id="dataset">Dataset Description</h2>
-<p>Customer-level transaction dataset containing purchase behavior attributes.</p>
+<h2 id="overview">Project Overview</h2>
+<p>
+This project analyzes customer transaction data to uncover valuable insights about
+customer purchasing behavior. The analysis focuses on identifying trends in revenue,
+product categories, discount usage, and subscription-based purchasing patterns.
+</p>
+
+<p>
+The goal is to transform raw data into meaningful business insights that can
+support data-driven decision-making.
+</p>
 
 <hr>
 
-<h2 id="analysis">Analytical Approach</h2>
+<h2 id="tools">Tools Used</h2>
 <ul>
-  <li>Revenue by category and season</li>
-  <li>Subscription vs non-subscription comparison</li>
-  <li>Discount impact analysis</li>
-  <li>Shipping and payment distribution</li>
-  <li>Customer frequency segmentation</li>
+    <li><strong>PostgreSQL</strong> – Data querying and analysis</li>
+    <li><strong>Python</strong> – Data transformation and processing</li>
+    <li><strong>Power BI</strong> – Interactive dashboard visualization</li>
 </ul>
 
 <hr>
 
-<h2 id="dashboard">📁 Dashboard Folder</h2>
-<p>Contains the Power BI dashboard file (.pbix).</p>
-
-<hr>
-
-<h2 id="data">📁 Data Folder</h2>
-<p>Contains the raw dataset used for analysis.</p>
-
-<hr>
-
-<h2 id="report">📁 Report Folder</h2>
-<p>Contains the final analytical report document.</p>
-
-<hr>
-
-<h2 id="screenshots">📁 Screenshots Folder</h2>
-<p>Contains dashboard preview images.</p>
-<img src="./screenshots/dashboard.png" width="850">
-
-<hr>
-
-<h2 id="scripts">📁 Scripts Folder</h2>
-<p>Contains both SQL and Python scripts for analysis and transformation.</p>
-
-<hr>
-
-<h2 id="structure">📂 Project Structure</h2>
+<h2 id="structure">Project Structure</h2>
 
 <pre>
-customer-behavior-project/
+Customer-purchase-Behavior/
 │
-├── dashboard/
-├── data/
-├── report/
-├── screenshots/
-├── scripts/
-└── README.html
+├── Dashboard/
+│     └── Power BI Dashboard (.pbix)
+│
+├── Data/
+│     └── Raw Dataset
+│
+├── Report/
+│     └── Final Analytical Report
+│
+├── Screenshots/
+│     └── Dashboard Preview Images
+│
+├── Scripts/
+│     ├── SQL Scripts
+│     └── Python Scripts
+│
+└── README.md
 </pre>
 
 <hr>
 
-<h2 id="run">How to Run</h2>
-<ol>
-  <li>Import dataset into PostgreSQL</li>
-  <li>Run SQL scripts from scripts folder</li>
-  <li>Execute Python scripts</li>
-  <li>Open Power BI dashboard</li>
-</ol>
+<h2 id="dashboard">Dashboard Folder</h2>
+<p>
+Contains the Power BI dashboard file (.pbix) which presents interactive visualizations
+including revenue analysis, discount trends, and customer segmentation insights.
+</p>
+
+<hr>
+
+<h2 id="data">Data Folder</h2>
+<p>
+Contains the raw dataset used for analysis. This dataset includes customer purchase
+information such as product category, payment method, discount status, and subscription status.
+</p>
+
+<hr>
+
+<h2 id="report">Report Folder</h2>
+<p>
+Contains the final analytical report document summarizing findings,
+business insights, and key observations from the analysis.
+</p>
+
+<hr>
+
+<h2 id="screenshots">Screenshots Folder</h2>
+<p>
+Contains dashboard preview images that provide a quick overview
+of the visual analysis and layout.
+</p>
+
+<!-- Example image path (update file name if needed) -->
+<!-- <img src="Screenshots/dashboard-preview.png" width="100%"> -->
+
+<hr>
+
+<h2 id="scripts">Scripts Folder</h2>
+<p>
+Contains both SQL and Python scripts used for data extraction,
+transformation, cleaning, and KPI calculation.
+</p>
+
+<hr>
+
+<h2 id="insights">Key Insights</h2>
+<ul>
+    <li>Revenue trends by product category</li>
+    <li>Customer purchasing frequency segmentation</li>
+    <li>Impact of discounts on buying behavior</li>
+    <li>Subscription vs non-subscription purchase comparison</li>
+    <li>Payment and shipping preference analysis</li>
+</ul>
+
+<hr>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>
+This project demonstrates an end-to-end analytical workflow —
+from raw data processing to dashboard visualization —
+highlighting practical SQL querying, Python data handling,
+and business-focused reporting skills.
+</p>
 
 <hr>
 
 <h2 id="author">Author</h2>
-
-<div class="author-box">
-
-<p><b>Sujal Sadh</b></p>
-
 <p>
-📧 Email:
-<a href="mailto:sujalsadh113@gmail.com">
-sujalsadh113@gmail.com
-</a>
+<strong>Sujal Sadh</strong><br>
+LinkedIn: <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">View Profile</a><br>
+Email: <a href="mailto:YOUR-EMAIL@gmail.com">YOUR-EMAIL@gmail.com</a>
 </p>
-
-<p>
-🔗 LinkedIn:
-<a href="https://www.linkedin.com/in/sujal-sadh-9aa902388/" target="_blank">
-https://www.linkedin.com/in/sujal-sadh-9aa902388/
-</a>
-</p>
-
-</div>
 
 <hr>
 
 <p align="center">
-⭐ If you found this project useful, consider giving it a star.
+⭐ If you found this project useful, feel free to star the repository.
 </p>
 
 </body>

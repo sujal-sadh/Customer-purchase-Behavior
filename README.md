@@ -158,7 +158,7 @@ ORDER BY total_revenue DESC;
 </ul>
 
 <p><b>Preview:</b></p>
-<img src="./screenshots/dashboard.png" alt="Customer Purchasing Dashboard Screenshot" width="900">
+<img src="screenshots/.screenshotsdashboard.png" alt="Customer Purchasing Dashboard Screenshot" width="900">
 
 <hr>
 

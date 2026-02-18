@@ -66,7 +66,7 @@ The analysis answers key questions:
 
 <h2 id="dataset">📊 Dataset</h2>
 
-<p><b>File:</b> <code>customer_shopping_behavior.csv</code></p>
+<p><b>File:</b> <code>customer_purchase_behavior.csv</code></p>
 <p><b>Type:</b> Customer-level transactional dataset</p>
 <p><b>Size:</b> Large dataset included in repository</p>
 
@@ -153,7 +153,7 @@ ORDER BY total_revenue DESC;
 
 <p><b>Files:</b></p>
 <ul>
-  <li><code>Customer_Purchasing_Behavior.pbix</code> — Power BI dashboard</li>
+  <li><code>Customer_Purchase_Behavior.pbix</code> — Power BI dashboard</li>
   <li><code>scripts/</code> — SQL and Python scripts</li>
 </ul>
 
@@ -168,20 +168,20 @@ ORDER BY total_revenue DESC;
 Customer-Purchasing-Behavior/
 │
 ├── dashboard/
-│   └── Customer_Purchasing_Behavior.pbix
+│   └── Customer_Purchase_Behavior.pbix
 │
 ├── data/
-│   └── customer_shopping_behavior.csv
+│   └── Customer_Purchase_Behavio.csv
 │
 ├── report/
-│   └── Customer_Purchasing_Behavior_Report.pdf
+│   └── Customer_Purchase_Behavior_Report.pdf
 │
 ├── screenshots/
 │   └── dashboard.png
 │
 ├── scripts/
-│   ├── analysis.sql
-│   └── data_processing.py
+│   ├── sql_script.sql
+│   └── python_script.py
 │
 └── README.md
 </pre>
